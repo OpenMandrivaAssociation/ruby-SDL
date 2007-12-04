@@ -12,7 +12,7 @@ Source: http://www.kmc.gr.jp/~ohai/rubysdl/%{real_name}-%{version}.tar.bz2
 Source1: http://www.kmc.gr.jp/~ohai/rubysdl_doc.en.html.bz2
 Group: Development/Ruby
 URL: http://www.kmc.gr.jp/~ohai/index.en.html
-BuildRequires: XFree86-devel libSDL-devel libSDL_image-devel libSDL_mixer-devel libSDL_ttf-devel libsmpeg-devel ruby-devel
+BuildRequires: X11-devel libSDL-devel libSDL_image-devel libSDL_mixer-devel libSDL_ttf-devel libsmpeg-devel ruby-devel
 Provides: %{real_name} = %{version}-%{release}
 Buildroot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot/
 
