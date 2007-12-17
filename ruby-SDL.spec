@@ -14,7 +14,6 @@ Group: Development/Ruby
 URL: http://www.kmc.gr.jp/~ohai/index.en.html
 BuildRequires: X11-devel libSDL-devel libSDL_image-devel libSDL_mixer-devel libSDL_ttf-devel libsmpeg-devel ruby-devel
 Provides: %{real_name} = %{version}-%{release}
-Buildroot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot/
 
 %description
 Ruby-SDL is a wrapper around the cross platform Simple Direct Layer game
