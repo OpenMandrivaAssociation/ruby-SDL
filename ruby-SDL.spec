@@ -1,18 +1,18 @@
 %define real_name rubysdl
 %define name ruby-SDL
-%define version 1.3.0
+%define version 2.0.1
 %define release %mkrel 1
 
 Summary: Wrapper around the cross platform Simple DirectMedia Layer game library
 Name: %{name}
 Version: %{version}
 Release: %{release}
-License: LGPL
-Source: http://www.kmc.gr.jp/~ohai/rubysdl/%{real_name}-%{version}.tar.bz2
-Source1: http://www.kmc.gr.jp/~ohai/rubysdl_doc.en.html.bz2
+License: LGPLv2+
+Source: http://www.kmc.gr.jp/~ohai/rubysdl/%{real_name}-%{version}.tar.gz
+Source1: http://www.kmc.gr.jp/~ohai/rubysdl_ref_2.en.html.bz2
 Group: Development/Ruby
 URL: http://www.kmc.gr.jp/~ohai/index.en.html
-BuildRequires: X11-devel libSDL-devel libSDL_image-devel libSDL_mixer-devel libSDL_ttf-devel libsmpeg-devel ruby-devel
+BuildRequires: libSDL-devel libSDL_image-devel libSDL_mixer-devel libSDL_ttf-devel libsmpeg-devel ruby-devel
 Provides: %{real_name} = %{version}-%{release}
 Buildroot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot/
 
