@@ -1,7 +1,7 @@
 %define real_name rubysdl
 %define name ruby-SDL
 %define version 2.0.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Wrapper around the cross platform Simple DirectMedia Layer game library
 Name: %{name}
