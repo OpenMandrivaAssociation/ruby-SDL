@@ -3,7 +3,7 @@
 Summary: Wrapper around the cross platform Simple DirectMedia Layer game library
 Name:    ruby-SDL
 Version: 2.0.1
-Release: 3
+Release: 4
 License: LGPLv2+
 Source:  http://www.kmc.gr.jp/~ohai/rubysdl/%{real_name}-%{version}.tar.gz
 Source1: http://www.kmc.gr.jp/~ohai/rubysdl_ref_2.en.html.bz2
