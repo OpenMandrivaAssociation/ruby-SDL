@@ -8,7 +8,7 @@ License: LGPLv2+
 Source:  http://www.kmc.gr.jp/~ohai/rubysdl/%{real_name}-%{version}.tar.gz
 Source1: http://www.kmc.gr.jp/~ohai/rubysdl_ref_2.en.html.bz2
 Group:   Development/Ruby
-URL:     http://www.kmc.gr.jp/~ohai/index.en.html
+URL:     https://www.kmc.gr.jp/~ohai/index.en.html
 BuildRequires: SDL-devel
 BuildRequires: SDL_image-devel
 BuildRequires: SDL_mixer-devel
